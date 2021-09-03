@@ -1,0 +1,109 @@
+.main__content{
+    margin-top: 100px;
+    padding:50px;
+    display: flex;
+    gap:120px
+}
+
+.main__content__card{
+    width: 45%;
+}
+
+.main__content__card:hover{
+    width: 45%;
+    filter: grayscale(25%)
+}
+
+.second__content{
+    margin-top: 100px;
+    height: 140vh;
+    display: flex;
+    gap:120px;
+    background-color: #822D12;
+}
+
+.second__content__part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-left: 40px;
+}
+
+.second__content__card{
+    width: 50%;
+}
+
+.third__content{
+    background-color: #F2EDE6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.third__content__span{
+    font-size: 40px;
+    padding: 50px 0;
+}
+
+.portfolio__items__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding: 50px;
+}
+
+.portfolio__item__wrapper{
+    position: relative;
+    cursor: pointer;
+}
+
+.portfolio__image__wrapper{
+    height: 250px;
+    width:250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title__subtitle__wrapper{
+    position: absolute;
+    top:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    transition: .8s;
+    color: transparent;
+}
+
+.title__subtitle__wrapper:hover{
+    transition: 1s;
+    background-color: rgba(109, 64, 64, 0.767);
+}
+
+.title__subtitle__wrapper:hover .title__wrapper{
+    transition: 1s ease-out;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 25px;
+    color: ghostwhite;
+    font-family: 'Indie Flower';
+    
+}
+.title__subtitle__wrapper:hover .subtitle__wrapper{
+    transition: 1s ease-in;
+    font-size: 15px;
+    color: rgb(221, 221, 221);
+}
+
+
+
